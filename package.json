@@ -1,0 +1,16 @@
+{
+  "name": "intellitrip",
+  "version": "1.0.0",
+  "description": "IntelliTrip – AI-Powered Smart Tourism & Travel Management System",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev": "concurrently --kill-others-on-fail --names \"PYTHON,NODE,REACT\" --prefix-colors \"blue,green,magenta\" \"npm run python\" \"npm run backend\" \"npm run frontend\"",
+    "python": "cd ai-service && python -m uvicorn app:app --reload --port 8000",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "seed": "node backend/seed.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

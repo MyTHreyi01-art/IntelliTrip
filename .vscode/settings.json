@@ -1,0 +1,16 @@
+{
+  "python.terminal.useEnvFile": true,
+  "python.envFile": "${workspaceFolder}/ai-service/.env",
+  "terminal.integrated.env.windows": {
+    "PYTHONPATH": "${workspaceFolder}/ai-service"
+  },
+  "files.associations": {
+    ".env": "dotenv",
+    ".env.example": "dotenv"
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "[python]": {
+    "editor.tabSize": 4
+  }
+}

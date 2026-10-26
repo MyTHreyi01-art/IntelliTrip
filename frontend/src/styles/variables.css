@@ -1,0 +1,66 @@
+:root {
+  /* Ultra-Luxury Royal Plum, Wine & Imperial Gold Palette */
+  --bg-dark-deep: #0f0712;
+  --bg-dark: #150917;
+  --bg-dark-card: #1f0e22;
+  --bg-dark-card-hover: #29122d;
+  --bg-surface: #241129;
+  --bg-subtle: #180a1a;
+  
+  /* Imperial Gold & Champagne Accents */
+  --color-gold-light: #f7e7be;
+  --color-gold: #d4af37;
+  --color-gold-metallic: #c5a059;
+  --color-gold-dark: #997a22;
+  --color-gold-gradient: linear-gradient(135deg, #f7e7be 0%, #d4af37 50%, #aa820a 100%);
+  --color-gold-gradient-hover: linear-gradient(135deg, #ffffff 0%, #f7e7be 50%, #d4af37 100%);
+
+  /* Primary & Accents */
+  --color-primary: #d4af37;
+  --color-primary-hover: #f7e7be;
+  --color-primary-dark: #997a22;
+  
+  --color-plum: #38143f;
+  --color-plum-light: #4e1c58;
+  --color-wine: #5c183b;
+
+  --color-secondary: #10b981;
+  --color-accent: #f59e0b;
+
+  /* Text Colors */
+  --text-main: #f8fafc;
+  --text-gold: #e6ca85;
+  --text-muted: #bda3c4;
+  --text-light: #8e7894;
+  --text-dark: #120815;
+
+  /* Status Colors */
+  --status-success: #10b981;
+  --status-warning: #f59e0b;
+  --status-error: #f43f5e;
+  --status-info: #38bdf8;
+
+  /* Gold Borders & Glassmorphism */
+  --border-gold: rgba(212, 175, 55, 0.35);
+  --border-gold-bright: rgba(212, 175, 55, 0.7);
+  --border-dark: rgba(255, 255, 255, 0.08);
+  
+  --glass-bg: rgba(31, 14, 34, 0.82);
+  --glass-border: rgba(212, 175, 55, 0.3);
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 6px 18px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 12px 30px rgba(0, 0, 0, 0.65);
+  --shadow-gold: 0 4px 20px rgba(212, 175, 55, 0.25);
+  --shadow-gold-lg: 0 8px 30px rgba(212, 175, 55, 0.4);
+
+  /* Typography */
+  --font-serif: 'Playfair Display', 'Cinzel', Georgia, serif;
+  --font-heading: 'Cinzel', 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
