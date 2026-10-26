@@ -35,7 +35,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 // CORS configuration
 app.use(
   cors({
-    origin: true,
+    origin: process.env.FRONTEND_URL || 'https://intellitrip-frontend.onrender.com',
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization']
