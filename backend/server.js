@@ -83,7 +83,7 @@ app.get('/', (req, res) => {
 app.use(notFound);
 app.use(errorHandler);
 
-const PORT = process.env.PORT || config.port;
+const PORT = process.env.PORT || 5000;
 
 // Connect to MongoDB Database first, then start listening
 const startServer = async () => {
